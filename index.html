@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expense &amp; Budget Visualizer</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== Notification Banner (Requirements 2.5, 6.3–6.5) ===== -->
+  <!-- Hidden by default; app.js shows/hides via NotificationBanner.show/dismiss -->
+  <div
+    id="notification-banner"
+    role="alert"
+    aria-live="polite"
+    hidden
+  ></div>
+
+  <main class="app-container">
+
+    <header class="app-header">
+      <h1>Expense &amp; Budget Visualizer</h1>
+    </header>
+
+    <!-- ===== Balance Display (Requirements 4.1–4.3) ===== -->
+    <section class="balance-section" aria-label="Total balance">
+      <h2 class="balance-label">Total Spent</h2>
+      <p
+        id="balance-display"
+        class="balance-amount"
+        role="status"
+        aria-label="Total spending amount"
+      >$0.00</p>
+    </section>
+
+    <!-- ===== Add Transaction Form (Requirements 1.1–1.6) ===== -->
+    <section class="form-section" aria-label="Add a transaction">
+      <h2>Add Transaction</h2>
+      <form id="transaction-form" novalidate>
+
+        <div class="form-field">
+          <label for="name-input">Item Name</label>
+          <input
+            type="text"
+            id="name-input"
+            name="name"
+            maxlength="100"
+            placeholder="e.g. Coffee"
+            autocomplete="off"
+            aria-describedby="name-error"
+            required
+          />
+          <span id="name-error" class="field-error" role="alert" aria-live="polite"></span>
+        </div>
+
+        <div class="form-field">
+          <label for="amount-input">Amount (USD)</label>
+          <input
+            type="number"
+            id="amount-input"
+            name="amount"
+            min="0.01"
+            max="999999999.99"
+            step="0.01"
+            placeholder="e.g. 12.50"
+            aria-describedby="amount-error"
+            required
+          />
+          <span id="amount-error" class="field-error" role="alert" aria-live="polite"></span>
+        </div>
+
+        <div class="form-field">
+          <label for="category-select">Category</label>
+          <select
+            id="category-select"
+            name="category"
+            aria-describedby="category-error"
+            required
+          >
+            <option value="" disabled selected>Select a category</option>
+            <option value="Food">Food</option>
+            <option value="Transport">Transport</option>
+            <option value="Fun">Fun</option>
+          </select>
+          <span id="category-error" class="field-error" role="alert" aria-live="polite"></span>
+        </div>
+
+        <button type="submit" class="btn-primary">Add Transaction</button>
+
+      </form>
+    </section>
+
+    <!-- ===== Transaction List (Requirements 2.1–2.5, 3.1–3.6) ===== -->
+    <section class="list-section" aria-label="Transaction history">
+      <h2>Transactions</h2>
+      <div id="transaction-list" aria-live="polite">
+        <!-- Populated by Renderer.renderTransactionList() -->
+        <p class="empty-state">No transactions added yet.</p>
+      </div>
+    </section>
+
+    <!-- ===== Pie Chart (Requirements 5.1–5.6) ===== -->
+    <section class="chart-section" aria-label="Spending by category">
+      <h2>Spending by Category</h2>
+      <div id="chart-container">
+        <!-- Populated by PieChart.render() via Renderer.renderChart() -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Confirmation Dialog (Requirement 3.2) ===== -->
+  <!-- Native <dialog> element; opened as modal by ConfirmationDialog.show() -->
+  <dialog id="confirm-dialog" aria-labelledby="confirm-message" aria-modal="true">
+    <p id="confirm-message"></p>
+    <div class="dialog-actions">
+      <button id="confirm-yes" class="btn-primary">Yes, delete</button>
+      <button id="confirm-no"  class="btn-secondary">Cancel</button>
+    </div>
+  </dialog>
+
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>

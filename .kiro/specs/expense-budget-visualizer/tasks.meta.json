@@ -1,0 +1,584 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Scaffold project structure and HTML shell": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592409036
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593093029
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593177160
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794596520937
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794596548538
+      }
+    ],
+    "2.1 Define the `Transaction` schema and `LocalStorageAdapter` module in `js/app.js`": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592409309
+      },
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592417263
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593093156
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593100821
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593177231
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593185833
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593232836
+      }
+    ],
+    "3.1 Implement `Validator.validateName`, `Validator.validateAmount`, `Validator.validateCategory`, and `Validator.validateTransaction` in `js/app.js`": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592409539
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593093214
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593177301
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593239583
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593638833
+      }
+    ],
+    "4.1 Implement `TransactionStore` module in `js/app.js`": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592409697
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593093302
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593177370
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593645475
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593702993
+      }
+    ],
+    "5. Checkpoint — core data layer": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592409826
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593093382
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593177491
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794596555532
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794596893281
+      }
+    ],
+    "6.1 Implement `PieChart.render(containerEl, slices)` using inline SVG in `js/app.js`": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592409885
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593093437
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593177551
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593709796
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593902658
+      }
+    ],
+    "7.1 Implement `Renderer.renderTransactionList(transactions)` in `js/app.js`": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592409942
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593093495
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593177612
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593906715
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794594453659
+      }
+    ],
+    "7.2 Implement `Renderer.renderBalanceDisplay(transactions)` in `js/app.js`": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592410039
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593093601
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593177671
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593910527
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794594457243
+      }
+    ],
+    "7.4 Implement `Renderer.renderChart(transactions)` and `Renderer.renderAll(transactions)` in `js/app.js`": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592410097
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593093659
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593177731
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794594460706
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794594660868
+      }
+    ],
+    "8.1 Implement `ConfirmationDialog.show(message, onConfirm, onCancel)` and `ConfirmationDialog.hide()` in `js/app.js`": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592410158
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593093717
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593177793
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794594464070
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794594664669
+      }
+    ],
+    "8.2 Implement `NotificationBanner.show(message, type)` and `NotificationBanner.dismiss()` in `js/app.js`": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592410253
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593093825
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593177853
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794594468139
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794594668304
+      }
+    ],
+    "9.1 Attach `submit` listener to `#transaction-form`": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592410308
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593093892
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593177910
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794594672237
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794594752433
+      }
+    ],
+    "9.2 Attach delegated `click` listener on `#transaction-list` for delete buttons": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592410371
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593093986
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593177970
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794594676050
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794594756060
+      }
+    ],
+    "9.3 Implement `initApp()` and call it on `DOMContentLoaded`": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592410438
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593094066
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593178026
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794594759981
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794595129127
+      }
+    ],
+    "10. Checkpoint — functional app": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592410552
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593094121
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593178084
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794596897177
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794596986832
+      }
+    ],
+    "11.1 Write base styles in `css/styles.css`": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592410613
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593094189
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593178142
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794595137759
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794595223570
+      }
+    ],
+    "11.2 Implement responsive single-column layout for viewports < 600 px": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592410710
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593094295
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593178201
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794595141242
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794595228478
+      }
+    ],
+    "11.3 Verify accessibility of form controls": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592410807
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593094353
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593178260
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794595232252
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794596513683
+      }
+    ],
+    "12. Final checkpoint — full verification": [
+      {
+        "executionId": "d4d2d1f6-334c-4140-a7b7-0e6dd13d4f7d",
+        "chatSessionId": "sess_733a8dce-4985-452e-835b-499cf5da8cc2",
+        "timestamp": 1794592410873
+      },
+      {
+        "executionId": "43092ce5-4b84-4b43-b4fa-2d9f9b102c8a",
+        "chatSessionId": "sess_285afdcc-128a-4156-8e2a-406aebf6621f",
+        "timestamp": 1794593094416
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593178321
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794596990762
+      },
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794597338939
+      }
+    ],
+    "2. Implement data models and LocalStorageAdapter": [
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593232913
+      }
+    ],
+    "3. Implement Validator module": [
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593638931
+      }
+    ],
+    "4. Implement TransactionStore": [
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593703072
+      }
+    ],
+    "6. Implement PieChart module": [
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794593902726
+      }
+    ],
+    "7. Implement Renderer module": [
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794594660955
+      }
+    ],
+    "8. Implement UI components — ConfirmationDialog and NotificationBanner": [
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794594668435
+      }
+    ],
+    "9. Wire event handlers and app initialisation in `js/app.js`": [
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794595129211
+      }
+    ],
+    "11. Implement CSS styling and responsive layout": [
+      {
+        "executionId": "c0ce957a-653b-4f81-9316-3d12dc751aeb",
+        "chatSessionId": "sess_f60f7180-36b7-4a14-bbb6-894dc9202f3e",
+        "timestamp": 1794596513796
+      }
+    ]
+  }
+}
